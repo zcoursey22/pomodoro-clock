@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div#clock {
+  width: 45vw;
+  background: #555;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: 20vw 0 0 -22.5vw;
+  padding: 2vw;
+}
+
+div#top > div {
+  display: inline-block;
+}
