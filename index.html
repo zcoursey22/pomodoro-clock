@@ -10,35 +10,35 @@
 <div id="clock">
   <div id="top">
     <h1>Pomodoro Clock</h1>
+    <br>
     <div id="session">
-      <span>Session</span>
-      <br>
-      <button id="addSessionTimeButton">up</button>
+      <h3>Session</h3>
+      <button id="addSessionTimeButton"><img class="upDown" src="images/up.png"></button>
       <span id="sessionTime">25</span>
-      <button id="removeSessionTimeButton">down</button>
+      <button id="removeSessionTimeButton"><img class="upDown" src="images/down.png"></button>
     </div>
 
     <div id="break">
-      <span>Break</span>
-      <br>
-      <button id="addBreakTimeButton">up</button>
+      <h3>Break</h3>
+      <button id="addBreakTimeButton"><img class="upDown" src="images/up.png"></button>
       <span id="breakTime">5</span>
-      <button id="removeBreakTimeButton">down</button>
+      <button id="removeBreakTimeButton"><img class="upDown" src="images/down.png"></button>
     </div>
-    </div>
+  </div>
 
-    <div id="bottom">
-      <span id="currentTimer">Session</span>
-      <br>
-      <span id="timer">25:00</span>
-      <div id="controls">
-        <button id="playButton">Start</button>
-        <button id="pauseButton">Pause</button>
-        <button id="resetButton">Reset</button>
-      </div>
+  <br><hr><br>
+
+  <div id="bottom">
+    <h2 id="currentTimer">Session</h2>
+    <span id="timer">25:00</span>
+    <br><br>
+    <div id="controls">
+      <button id="playButton"><img src="images/play.png"></button>
+      <button id="pauseButton"><img src="images/pause.png"></button>
+      <button id="resetButton"><img src="images/stop.png"></button>
     </div>
+  </div>
 </div>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="script.js"></script>

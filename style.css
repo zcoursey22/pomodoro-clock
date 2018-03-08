@@ -7,17 +7,63 @@
 }
 
 body {
-  background: #bbb;
+  background: #222;
+}
+
+#top > div {
+  padding: 0 1.25vw;
+}
+
+#controls > button {
+  margin: 0 0.25vw;
+  padding: 0 1vw;
+}
+
+h1 {
+  font-size: 2.5vw;
+}
+
+h2 {
+  font-size: 1.75vw
+}
+
+h3 {
+  font-size: 1.6vw;
+}
+
+span {
+  font-size: 2vw;
+}
+
+span#timer {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+button {
+  font-size: 0;
+  outline: none;
+}
+
+img {
+  width: 3vw;
+  padding: 0.5vw;
+}
+
+img.upDown {
+  width: 1.5vw;
+  padding: 0;
 }
 
 div#clock {
   width: 45vw;
-  background: #555;
+  background: #acf;
   position: relative;
   top: 50%;
   left: 50%;
-  margin: 20vw 0 0 -22.5vw;
+  margin: 11vw 0 0 -22.5vw;
   padding: 2vw;
+  border: 0.5vw solid white;
 }
 
 div#top > div {
