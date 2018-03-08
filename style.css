@@ -6,6 +6,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background: #bbb;
+}
+
 div#clock {
   width: 45vw;
   background: #555;
